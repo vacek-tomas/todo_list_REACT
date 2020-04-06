@@ -62,7 +62,7 @@ export class TodoList extends React.Component<{}, TodoListState> {
         return (
             <React.Fragment>
                 <div className="header">
-                    <h2>My To Do List</h2>
+                    <h2>To-Do List</h2>
                     <input value={this.state.value} onChange={this.handleChange} type="text" placeholder="Title..."/>
                     <span onClick={() => this.addItem(this.state.value)} className="addBtn">Add</span>
                 </div>
